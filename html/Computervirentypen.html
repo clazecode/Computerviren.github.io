@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="De">
+   <head>
+      <link rel="stylesheet" type="text/css" href="../style.css" />
+      <title> Computervirentypen </title>
+   </head>
+   <body>
+      <div class="right3">
+         <img src="../img/CCCFFF.png">
+      </div>
+      <div class="left3">
+         <img src="../img/CCCFFF.png">
+      </div>
+      <center>
+         <p class="wassind">
+            <a class="black-a" href = "../index.html" >Computerviren</a>typen
+         </p>
+      </center>
+      <p class="content2">
+         Inhaltsverzeichnis<br>
+         <a href = "#Bootviren"> Bootviren </a> <br>
+         <a href = "#Dateiviren"> Dateiviren und Linkviren </a> <br>
+         <a href = "#Makroviren"> Makroviren </a><br>
+         <a href = "#Skriptviren"> Skriptviren </a> <br>
+         <a href = "#Mischformen"> Mischformen </a> <br>
+      </p>
+      <p class="contenttype1">
+         <a name = "Bootviren">  </a>
+         1. Bootviren <br><br>
+         Der Bootsektor enthält die Dateien, die zum Starten des Betriebssystems benötigt werden. 
+         Bootviren werden so früh aktiviert, dass sie während der Bootphase Schadcode ausführen, noch bevor die Sicherheitsstufen des Betriebssystems oder gar Antivirensoftware geladen sind. 
+         Grundsätzlich wird zwischen zwei Arten von Bootsektorviren unterschieden. 
+         Obige Varianten werden ab dem ersten Sektor des Speichermediums ausgeführt, das zum Booten des Betriebssystems verwendet wird. 
+         Zu Zeiten von Betriebssystemen wie MSDOS waren dies meist Disketten. 
+         Zumindest theoretisch kann diese Art von Bootvirus natürlich auch auf anderen Medientypen und Wechselmedien aktiv sein. 
+         Viren, die MBR infizieren, sind häufiger. 
+         Obwohl sie den Bootsektor nicht wirklich infizieren, treten sie bei jedem Systemstart auf. 
+         Boot-Viren können auch das Hochfahren eines Systems verhindern.<br><br>
+         <a name = "Dateiviren"> </a>
+         2. Dateiviren und Linkviren<br><br>
+         Linkvirus oder Dateivirus ist die häufigste Virusart.
+         Sie infizieren ausführbare Dateien oder Bibliotheken auf dem Betriebssystem.
+         Um eine ausführbare Datei zu infizieren, muss sich der Virus in die Wirtsdatei einfügen (meist am Ende, weil dies am einfachsten ist).
+         Der Virus modifiziert auch die Hostdatei, um den Virus beim Programmstart aufzurufen. Eine spezielle Form des Linkvirus wählt unterschiedliche Strategien und passt sich bestehenden Programmfunktionen an.
+         <br><br>
+         <a name = "Makroviren"> </a>
+         3. Makroviren <br><br>
+         Makroviren benötigen Anwendungen, die Dokumente mit eingebetteten Makros verarbeiten.
+         Sie befallen Makros in nicht-infizierten Dokumenten oder fügen entsprechende Makros ein, falls diese noch nicht vorhanden sind.
+         Makros werden von vielen Office-Dokument-Typen verwendet. Aber auch andere Dokumentdateien können Makros enthalten. Sie dienen normalerweise dazu, in den Dokumenten wiederkehrende Aufgaben zu automatisieren oder zu vereinfachen.
+         Häufig unterstützen Anwendungen mit solchen Dokumenten ein spezielles Makro, das automatisch nach dem Laden des Dokuments ausgeführt wird. Dies ist ein von Makroviren bevorzugter Ort für die Infektion, da er die höchste Aufrufwahrscheinlichkeit hat.
+         Wie Linkviren versuchen auch Makroviren, noch nicht infizierte Dateien zu befallen. Da die meisten Anwender sich nicht bewusst sind, dass beispielsweise ein Textdokument ausführbare Inhalte und damit ein Virus enthalten kann, gehen sie meist relativ sorglos mit solchen Dokumenten um.
+         Sie werden sehr oft an andere Anwender verschickt oder auf öffentlichen Servern zum Herunterladen angeboten. Dadurch können sich Makroviren recht gut verbreiten. Um das Jahr 2000 herum stellten sie die größte Bedrohung dar, bis sie darin von den Computerwürmern abgelöst wurden.
+         Ein Schutz gegen Makroviren besteht darin, dafür zu sorgen, dass nur zertifizierte Makros von der Anwendung ausgeführt werden. Dies ist insbesondere für (größere) Unternehmen und Behörden von Interesse, wo eine zentrale Zertifizierungsstelle Makros zum allgemeinen Gebrauch vor deren Freigabe überprüft und akzeptierte Makros zertifiziert. 
+         Es empfiehlt sich weiterhin, das automatische Ausführen von Makros in der entsprechenden Anwendung auszuschalten. 
+      </h3>
+      <br><br>
+      <a name ="Skriptviren"> </a>
+      4. Skriptviren<br><br>
+      Ein Skript ist ein Programm, das nicht von einem Compiler in Maschinensprache übersetzt, sondern von einem Interpreter Schritt für Schritt ausgeführt wird.
+      Scripting wird häufig auf Webservern und clientseitig durch in Webseiten eingebettete Skriptsprachen verwendet.
+      Auf Websites wird neben normalem HTML oder XML häufig ein Skript verwendet, um Funktionen zu implementieren, die sonst nur mit Hilfe von auf dem Server ablauffähigen Programmen möglich wären. Solche Funktionen sind zB Gästebücher, Foren, dynamisch geladene Seiten oder Webmail.
+      Skriptsprachen sind meist unabhängig vom Betriebssystem.
+      Um ein Skript auszuführen, benötigen Sie einen geeigneten Interpreter, ein Programm, das das Skript von einer für Menschen lesbaren Programmiersprache in eine interne Darstellung umwandelt und anschließend ausführt.
+      Wie jeder andere Virus sucht auch der Skriptvirus nach einer geeigneten Hostdatei zum Infizieren. 
+      <br><br>
+      <a name = "Mischformen"> </a>
+      5. Mischformen<br><br>
+      Nicht alle Computerviren sind eindeutig in bestimmte Kategorien eingeteilt. Es gibt auch Mischformen, wie Viren, die Dateien und Bootsektoren infizieren (zB Kernel-Viren) oder Makroviren, die auch Programmdateien infizieren können. Fast alle Änderungen sind möglich.<br><br>
+      </p>
+   </body>
+</html>
