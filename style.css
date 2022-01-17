@@ -1,0 +1,153 @@
+/*	 CSS DATEI COMPUTERVIEREN 	*/
+.left img {
+position: absolute;
+left: 0px;
+top: 0px;
+width: 250px;
+height: 100%;
+}
+.right img {
+position: absolute;
+top: 0px;
+right: 0px;
+width: 250px;
+height: 100%;
+}
+.left2 img {
+position: absolute;
+left: 0px;
+top: 0px;
+width: 250px;
+height: 211%;
+}
+.right2 img {
+position: absolute;
+top: 0px;
+right: 0px;
+width: 250px;
+height: 211%;
+}
+
+.left3 img {
+position: absolute;
+left: 0px;
+top: 0px;
+width: 250px;
+height: 435%;
+}
+.right3 img {
+position: absolute;
+top: 0px;
+right: 0px;
+width: 250px;
+height: 435%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.content {
+color: black;
+position: absolute;
+right: 950px;
+font-size:30px;
+font-family: Arial;
+font-weight: bold;
+}
+a.content {
+color: black;
+position: absolute;
+right: 900px;
+font-size:30px;
+font-family: Arial;
+font-weight: bold;
+}
+a {
+color: blue
+}
+
+p.content2 {
+color: black;
+position: absolute;
+left: 285px;
+right: 350px;
+font-size:29px;
+font-family: Arial;
+font-weight: bold;
+}
+
+p.content3 {
+color: blue;
+position: absolute;
+left: 285px;
+right: 350px;
+font-size:30px;
+font-family: Arial;
+font-weight: bold;
+}
+p.content4 {
+color: black;
+position: absolute;
+left: 285px;
+right: 350px;
+font-size:30px;
+font-family: Arial;
+font-weight: bold;
+}
+p.contenttype1 {
+color: black;
+position: absolute;
+left: 285px;
+top: 350px;
+right: 350px;
+font-size:30px;
+font-family: Arial;
+font-weight: bold;
+}
+p.contenttype2 {
+color: black;
+position: absolute;
+left: 285px;
+top: 100px;
+right: 350px;
+font-size:30px;
+font-family: Arial;
+font-weight: bold;
+}
+
+.wassind {
+color: black;
+font-family: Arial;
+font-weight: bold;
+font-size: 40px;
+
+
+}
+a.black-a {
+color: black;
+
+}
+.quellebild img {
+position: absolute;
+width: 531.6px;
+height: 296.8px;
+right: 300px;
+}
